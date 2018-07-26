@@ -5,7 +5,7 @@ int main()
 	int n,i,j,count=0;
 	cin>>n;
 	int a[n],b[n];
-	//insertion in array
+	
 	for(i=0;i<n;i++)
 	{
 		cout<<"Enter element in 1st array : ";
@@ -13,8 +13,6 @@ int main()
 		cout<<"Enter element in 2nd array : ";
 		cin>>b[i];
 	}
-	//checking for duplicates in same arrays
-	//sorting array1
 		for(i=0;i<n;i++){
 		for(j=i+1;j<n;j++)
 		{
@@ -27,7 +25,7 @@ int main()
 				n--;
 			}
 		}
-	//sorting array2
+	
 		for(i=0;i<n;i++)
 		{
 			for(j=i+1;j<n;j++)
@@ -43,7 +41,7 @@ int main()
 			}
 		}
 	
-	//checking for duplicates in two arrays
+	
 	cout<<"duplicate elements: ";
 	for(i=0;i<n;i++){
 		int flag=0;
